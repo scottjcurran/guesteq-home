@@ -6,12 +6,10 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Navbar */
-
-
 
 /* sidebar */
 
@@ -25,7 +23,6 @@ body {
   justify-content: space-between;
   align-items: center;
   z-index: 10;
-
 }
 
 .menu-icon {
@@ -34,15 +31,16 @@ body {
 }
 
 .line {
-  height: .2rem;
+  height: 0.2rem;
   width: 2.5rem;
   background-color: #222;
-  margin-bottom: .6rem
+  margin-bottom: 0.6rem;
 }
 
-.line-1, .line-3 {
+.line-1,
+.line-3 {
   width: 1.8rem;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .menu-icon:hover .line {
@@ -62,7 +60,7 @@ body {
 .social-link {
   font-size: 2rem;
   color: #777;
-  transition: color .3s;
+  transition: color 0.3s;
 }
 
 .social-link:hover {
@@ -82,22 +80,27 @@ body {
   position: fixed;
   width: 40rem;
   height: 100%;
-  background:   linear-gradient(to top, rgba(34,32,41,1), rgba(34,32,41,0.7)),
-  url('https://guesteq1.s3-us-west-2.amazonaws.com/maid-pillows.jpg') center no-repeat;
+  background: linear-gradient(
+      to top,
+      rgba(34, 32, 41, 1),
+      rgba(34, 32, 41, 0.7)
+    ),
+    url("https://guesteq1.s3-us-west-2.amazonaws.com/maid-pillows.jpg") center
+      no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   z-index: 5;
-  transition: left .8s cubic-bezier(1,0,0,1);
+  transition: left 0.8s cubic-bezier(1, 0, 0, 1);
 }
 
 .navigation-heading {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 3.5rem;
   font-weight: 300;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   color: #deaa86;
   text-align: center;
 }
@@ -109,19 +112,19 @@ body {
 .navigation-search-input {
   width: 30rem;
   padding: 1rem 2rem;
-  background-color: rgba(0, 0, 0, .3);
-  font-family: 'Josefin Sans', sans-serif;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-family: "Josefin Sans", sans-serif;
   font-size: 1.6rem;
   color: #deaa86;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   outline: none;
-  border: .1rem solid #555;
+  border: 0.1rem solid #555;
   border-radius: 10rem;
-  transition: background-color .3s;
-;}
+  transition: background-color 0.3s;
+}
 
 .navigation-search-input:focus {
-  background-color: rgba(0, 0, 0, .1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .navigation-search-btn {
@@ -157,32 +160,32 @@ body {
   color: #fff;
   font-size: 1.6rem;
   font-weight: 400;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   text-transform: uppercase;
   text-decoration: none;
-  transition: color .5s;
+  transition: color 0.5s;
 }
 
 .navigation-link::before {
   content: "";
   width: 0rem;
-  height: .1rem;
+  height: 0.1rem;
   background-color: #deaa86;
   position: absolute;
   top: 1rem;
   left: -4rem;
-  transition: width .5s cubic-bezier(1,0,0,1);
+  transition: width 0.5s cubic-bezier(1, 0, 0, 1);
 }
 
 .navigation-link::after {
   content: "";
   width: 0rem;
-  height: .1rem;
+  height: 0.1rem;
   background-color: #deaa86;
   position: absolute;
   top: 1rem;
   right: -4rem;
-  transition: width .5s cubic-bezier(1,0,0,1);
+  transition: width 0.5s cubic-bezier(1, 0, 0, 1);
 }
 
 .navigation-link:hover {
@@ -216,13 +219,14 @@ body {
   width: 2.5rem;
 }
 
-
 /* Header */
 
 .header {
   margin-left: 8rem;
   height: 100vh;
-  background:linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .5)), url("https://guesteq1.s3-us-west-2.amazonaws.com/front-desk-bell.jpg") center center no-repeat;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url("https://guesteq1.s3-us-west-2.amazonaws.com/front-desk-bell.jpg")
+      center center no-repeat;
   background-size: cover;
 }
 
@@ -236,7 +240,7 @@ body {
   font-size: 2.7rem;
   font-weight: 400;
   color: #deaa86;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   margin-left: 8rem;
 }
 
@@ -250,7 +254,7 @@ body {
 }
 
 .banner-heading {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 7rem;
   font-weight: 400;
   margin-bottom: 0;
@@ -260,14 +264,14 @@ body {
 .banner-paragraph {
   font-size: 3rem;
   font-weight: 300;
-  animation: anim 1.5s .5s backwards;
+  animation: anim 1.5s 0.5s backwards;
 }
 
 .banner-button {
   width: 21rem;
   padding: 1.2rem 2rem;
   color: #333;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   border: none;
   border-radius: 10rem;
   outline: none;
@@ -281,7 +285,7 @@ body {
 }
 
 .banner-button:active {
-  transform: translateY(.2rem);
+  transform: translateY(0.2rem);
 }
 
 @keyframes anim {
@@ -312,7 +316,7 @@ body {
 }
 
 .about-us-heading {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 4rem;
   font-weight: 300;
   text-transform: uppercase;
@@ -321,27 +325,26 @@ body {
 
 .small-underline {
   width: 9rem;
-  height: .1rem;
+  height: 0.1rem;
   margin: 0 auto 1rem auto;
   background-color: #b85d1c;
 }
 
 .big-underline {
   width: 20rem;
-  height: .1rem;
+  height: 0.1rem;
   background-color: #b85d1c;
 }
 
 .sub-heading {
   font-size: 3.5rem;
   font-weight: 300;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   color: #b85d1c;
-
 }
 
 .about-us-paragraph {
-  font-size: 1.6rem;
+  font-size: 2.6rem;
   font-style: italic;
   font-weight: 300;
   text-align: center;
@@ -350,25 +353,24 @@ body {
 
 .about-us-btn {
   width: 15rem;
-  padding: .7rem .5rem;
-  font-family: 'Montserrat', sans-serif;
+  padding: 0.7rem 0.5rem;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
   text-transform: uppercase;
   color: #b85d1c;
   background-color: transparent;
-  border: .1rem solid #b85d1c;
+  border: 0.1rem solid #b85d1c;
   cursor: pointer;
   outline: none;
 }
 
 .btn-arrow {
-  margin-left: .5rem;
-  transition: margin-left .4s;
+  margin-left: 0.5rem;
+  transition: margin-left 0.4s;
 }
 
 .about-us-btn:hover .btn-arrow {
   margin-left: 1.5rem;
-
 }
 
 .about-us-images {
@@ -382,9 +384,8 @@ body {
   top: 50%;
   left: 50%;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.4);
-  border-radius: .4rem;
-  border: .2rem solid #b85d1c;
-
+  border-radius: 0.4rem;
+  border: 0.2rem solid #b85d1c;
 }
 
 .image-1 {
@@ -414,19 +415,19 @@ body {
 .common-heading {
   font-size: 4rem;
   font-weight: 300;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
 }
 
 .small-underline {
   width: 9rem;
-  height: .1rem;
+  height: 0.1rem;
   margin: 0 auto 1rem auto;
   background-color: #b85d1c;
 }
 
 .big-underline {
   width: 20rem;
-  height: .1rem;
+  height: 0.1rem;
   margin: auto;
   background-color: #b85d1c;
 }
@@ -466,22 +467,22 @@ body {
 }
 
 .feature-card-paragraph {
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   color: #777;
 }
 
 .feature-card-btn {
-    width: 15rem;
-    padding: 1.5rem 1rem;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    color: #b85d1c;
-    background-color: transparent;
-    border: .1rem solid #b85d1c;
-    border-radius: 10rem;
-    cursor: pointer;
-    outline: none;
+  width: 15rem;
+  padding: 1.5rem 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #b85d1c;
+  background-color: transparent;
+  border: 0.1rem solid #b85d1c;
+  border-radius: 10rem;
+  cursor: pointer;
+  outline: none;
 }
 
 .customers {
@@ -507,7 +508,6 @@ body {
   background-color: #eee;
   width: 60rem;
   display: flex;
-
 }
 
 .customer-image-wrapper {
@@ -588,7 +588,7 @@ body {
 .footer-input {
   width: 25rem;
   padding: 1rem;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 1.8rem;
   color: #444;
   outline: none;
@@ -607,16 +607,15 @@ body {
 
 .image-wrapper {
   width: 12rem;
-  margin: .4rem;
+  margin: 0.4rem;
   overflow: hidden;
-
 }
 
 .footer-image {
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .gallery-images {
@@ -626,7 +625,7 @@ body {
 
 .footer-image:hover {
   transform: scale(1.3);
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .creator-part {
@@ -651,84 +650,83 @@ body {
   color: gold;
 }
 
+@media (max-width: 1400px) {
+  .customers-card-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
 
-@media(max-width: 1400px) {
-    .customers-card-wrapper {
-        flex-direction: column;
-        align-items: center;
-    }
+  .customer-card:first-child {
+    margin-bottom: 3rem;
+  }
 
-    .customer-card:first-child {
-        margin-bottom: 3rem;
-    }
+  .main-part {
+    flex-direction: column;
+  }
 
-    .main-part {
-        flex-direction: column;
-    }
+  .footer-list {
+    display: flex;
+  }
 
-    .footer-list {
-        display: flex;
-    }
-
-    .footer-list-item {
-        margin-right: 3rem;
-    }
+  .footer-list-item {
+    margin-right: 3rem;
+  }
 }
 
-@media(max-width: 1200px) {
-    .about-us {
-        flex-direction: column;
-        padding-bottom: 20rem;
-    }
+@media (max-width: 1200px) {
+  .about-us {
+    flex-direction: column;
+    padding-bottom: 20rem;
+  }
 
-    .about-us-content {
-        margin-bottom: 13rem;
-    }
+  .about-us-content {
+    margin-bottom: 13rem;
+  }
 
-    .image {
-        width: 25rem;
-    }
+  .image {
+    width: 25rem;
+  }
 }
 
-@media(max-width: 900px) {
-    .banner {
-        text-align: center;
-    }
+@media (max-width: 900px) {
+  .banner {
+    text-align: center;
+  }
 
-    .banner-heading {
-        font-size: 4.7rem;
-    }
+  .banner-heading {
+    font-size: 4.7rem;
+  }
 
-    .banner-paragraph {
-        font-size: 2.6rem;
-    }
+  .banner-paragraph {
+    font-size: 2.6rem;
+  }
 
-    .banner-button {
-        width: 16rem;
-        font-size: 1.5rem;
-    }
+  .banner-button {
+    width: 16rem;
+    font-size: 1.5rem;
+  }
 }
 
-@media(max-width: 750px) {
-    .customer-card {
-        flex-direction: column;
-        width: 20rem;
-    }
+@media (max-width: 750px) {
+  .customer-card {
+    flex-direction: column;
+    width: 20rem;
+  }
 
-    .customer-image {
-        margin-left: 0;
-    }
+  .customer-image {
+    margin-left: 0;
+  }
 
-    .footer-list {
-        display: block;
-    }
+  .footer-list {
+    display: block;
+  }
 
-    .creator-part {
-        flex-direction: column;
-        text-align: center;
-    }
+  .creator-part {
+    flex-direction: column;
+    text-align: center;
+  }
 
-    .copyright-text {
-        order: 1;
-    }
+  .copyright-text {
+    order: 1;
+  }
 }
